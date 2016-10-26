@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C73F58EA1DC08E610059397D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C73F58E91DC08E610059397D /* main.m */; };
+		C73F58ED1DC08E610059397D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C73F58EC1DC08E610059397D /* AppDelegate.m */; };
+		C73F58F01DC08E610059397D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C73F58EF1DC08E610059397D /* ViewController.m */; };
+		C73F58F31DC08E610059397D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C73F58F11DC08E610059397D /* Main.storyboard */; };
+		C73F58F51DC08E610059397D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C73F58F41DC08E610059397D /* Assets.xcassets */; };
+		C73F58F81DC08E610059397D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C73F58F61DC08E610059397D /* LaunchScreen.storyboard */; };
+		C73F59031DC08E610059397D /* AddTextToImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C73F59021DC08E610059397D /* AddTextToImageTests.m */; };
+		C73F590E1DC08E610059397D /* AddTextToImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C73F590D1DC08E610059397D /* AddTextToImageUITests.m */; };
+		C73F591D1DC08EA90059397D /* UIImage+AddTextToImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C73F591C1DC08EA90059397D /* UIImage+AddTextToImage.m */; };
+		C73F59211DC093310059397D /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = C73F59201DC093310059397D /* image.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C73F58FF1DC08E610059397D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C73F58DD1DC08E610059397D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C73F58E41DC08E610059397D;
+			remoteInfo = AddTextToImage;
+		};
+		C73F590A1DC08E610059397D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C73F58DD1DC08E610059397D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C73F58E41DC08E610059397D;
+			remoteInfo = AddTextToImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C73F58E51DC08E610059397D /* AddTextToImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddTextToImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73F58E91DC08E610059397D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C73F58EB1DC08E610059397D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C73F58EC1DC08E610059397D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C73F58EE1DC08E610059397D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C73F58EF1DC08E610059397D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C73F58F21DC08E610059397D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C73F58F41DC08E610059397D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C73F58F71DC08E610059397D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C73F58F91DC08E610059397D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C73F58FE1DC08E610059397D /* AddTextToImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddTextToImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73F59021DC08E610059397D /* AddTextToImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddTextToImageTests.m; sourceTree = "<group>"; };
+		C73F59041DC08E610059397D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C73F59091DC08E610059397D /* AddTextToImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddTextToImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73F590D1DC08E610059397D /* AddTextToImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddTextToImageUITests.m; sourceTree = "<group>"; };
+		C73F590F1DC08E610059397D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C73F591B1DC08EA90059397D /* UIImage+AddTextToImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AddTextToImage.h"; sourceTree = "<group>"; };
+		C73F591C1DC08EA90059397D /* UIImage+AddTextToImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AddTextToImage.m"; sourceTree = "<group>"; };
+		C73F59201DC093310059397D /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C73F58E21DC08E610059397D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C73F58FB1DC08E610059397D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C73F59061DC08E610059397D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C73F58DC1DC08E610059397D = {
+			isa = PBXGroup;
+			children = (
+				C73F58E71DC08E610059397D /* AddTextToImage */,
+				C73F59011DC08E610059397D /* AddTextToImageTests */,
+				C73F590C1DC08E610059397D /* AddTextToImageUITests */,
+				C73F58E61DC08E610059397D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C73F58E61DC08E610059397D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C73F58E51DC08E610059397D /* AddTextToImage.app */,
+				C73F58FE1DC08E610059397D /* AddTextToImageTests.xctest */,
+				C73F59091DC08E610059397D /* AddTextToImageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C73F58E71DC08E610059397D /* AddTextToImage */ = {
+			isa = PBXGroup;
+			children = (
+				C73F59201DC093310059397D /* image.png */,
+				C73F58EB1DC08E610059397D /* AppDelegate.h */,
+				C73F58EC1DC08E610059397D /* AppDelegate.m */,
+				C73F58EE1DC08E610059397D /* ViewController.h */,
+				C73F58EF1DC08E610059397D /* ViewController.m */,
+				C73F58F11DC08E610059397D /* Main.storyboard */,
+				C73F58F41DC08E610059397D /* Assets.xcassets */,
+				C73F58F61DC08E610059397D /* LaunchScreen.storyboard */,
+				C73F58F91DC08E610059397D /* Info.plist */,
+				C73F58E81DC08E610059397D /* Supporting Files */,
+				C73F591B1DC08EA90059397D /* UIImage+AddTextToImage.h */,
+				C73F591C1DC08EA90059397D /* UIImage+AddTextToImage.m */,
+			);
+			path = AddTextToImage;
+			sourceTree = "<group>";
+		};
+		C73F58E81DC08E610059397D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C73F58E91DC08E610059397D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C73F59011DC08E610059397D /* AddTextToImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				C73F59021DC08E610059397D /* AddTextToImageTests.m */,
+				C73F59041DC08E610059397D /* Info.plist */,
+			);
+			path = AddTextToImageTests;
+			sourceTree = "<group>";
+		};
+		C73F590C1DC08E610059397D /* AddTextToImageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C73F590D1DC08E610059397D /* AddTextToImageUITests.m */,
+				C73F590F1DC08E610059397D /* Info.plist */,
+			);
+			path = AddTextToImageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C73F58E41DC08E610059397D /* AddTextToImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C73F59121DC08E610059397D /* Build configuration list for PBXNativeTarget "AddTextToImage" */;
+			buildPhases = (
+				C73F58E11DC08E610059397D /* Sources */,
+				C73F58E21DC08E610059397D /* Frameworks */,
+				C73F58E31DC08E610059397D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddTextToImage;
+			productName = AddTextToImage;
+			productReference = C73F58E51DC08E610059397D /* AddTextToImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C73F58FD1DC08E610059397D /* AddTextToImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C73F59151DC08E610059397D /* Build configuration list for PBXNativeTarget "AddTextToImageTests" */;
+			buildPhases = (
+				C73F58FA1DC08E610059397D /* Sources */,
+				C73F58FB1DC08E610059397D /* Frameworks */,
+				C73F58FC1DC08E610059397D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C73F59001DC08E610059397D /* PBXTargetDependency */,
+			);
+			name = AddTextToImageTests;
+			productName = AddTextToImageTests;
+			productReference = C73F58FE1DC08E610059397D /* AddTextToImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C73F59081DC08E610059397D /* AddTextToImageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C73F59181DC08E610059397D /* Build configuration list for PBXNativeTarget "AddTextToImageUITests" */;
+			buildPhases = (
+				C73F59051DC08E610059397D /* Sources */,
+				C73F59061DC08E610059397D /* Frameworks */,
+				C73F59071DC08E610059397D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C73F590B1DC08E610059397D /* PBXTargetDependency */,
+			);
+			name = AddTextToImageUITests;
+			productName = AddTextToImageUITests;
+			productReference = C73F59091DC08E610059397D /* AddTextToImageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C73F58DD1DC08E610059397D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = DLL;
+				TargetAttributes = {
+					C73F58E41DC08E610059397D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C73F58FD1DC08E610059397D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C73F58E41DC08E610059397D;
+					};
+					C73F59081DC08E610059397D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C73F58E41DC08E610059397D;
+					};
+				};
+			};
+			buildConfigurationList = C73F58E01DC08E610059397D /* Build configuration list for PBXProject "AddTextToImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C73F58DC1DC08E610059397D;
+			productRefGroup = C73F58E61DC08E610059397D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C73F58E41DC08E610059397D /* AddTextToImage */,
+				C73F58FD1DC08E610059397D /* AddTextToImageTests */,
+				C73F59081DC08E610059397D /* AddTextToImageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C73F58E31DC08E610059397D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C73F58F81DC08E610059397D /* LaunchScreen.storyboard in Resources */,
+				C73F58F51DC08E610059397D /* Assets.xcassets in Resources */,
+				C73F58F31DC08E610059397D /* Main.storyboard in Resources */,
+				C73F59211DC093310059397D /* image.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C73F58FC1DC08E610059397D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C73F59071DC08E610059397D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C73F58E11DC08E610059397D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C73F58F01DC08E610059397D /* ViewController.m in Sources */,
+				C73F58ED1DC08E610059397D /* AppDelegate.m in Sources */,
+				C73F58EA1DC08E610059397D /* main.m in Sources */,
+				C73F591D1DC08EA90059397D /* UIImage+AddTextToImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C73F58FA1DC08E610059397D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C73F59031DC08E610059397D /* AddTextToImageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C73F59051DC08E610059397D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C73F590E1DC08E610059397D /* AddTextToImageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C73F59001DC08E610059397D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C73F58E41DC08E610059397D /* AddTextToImage */;
+			targetProxy = C73F58FF1DC08E610059397D /* PBXContainerItemProxy */;
+		};
+		C73F590B1DC08E610059397D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C73F58E41DC08E610059397D /* AddTextToImage */;
+			targetProxy = C73F590A1DC08E610059397D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C73F58F11DC08E610059397D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C73F58F21DC08E610059397D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C73F58F61DC08E610059397D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C73F58F71DC08E610059397D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C73F59101DC08E610059397D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C73F59111DC08E610059397D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C73F59131DC08E610059397D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AddTextToImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dll.AddTextToImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C73F59141DC08E610059397D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AddTextToImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dll.AddTextToImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C73F59161DC08E610059397D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AddTextToImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dll.AddTextToImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddTextToImage.app/AddTextToImage";
+			};
+			name = Debug;
+		};
+		C73F59171DC08E610059397D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AddTextToImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dll.AddTextToImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddTextToImage.app/AddTextToImage";
+			};
+			name = Release;
+		};
+		C73F59191DC08E610059397D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AddTextToImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dll.AddTextToImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AddTextToImage;
+			};
+			name = Debug;
+		};
+		C73F591A1DC08E610059397D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AddTextToImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dll.AddTextToImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AddTextToImage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C73F58E01DC08E610059397D /* Build configuration list for PBXProject "AddTextToImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C73F59101DC08E610059397D /* Debug */,
+				C73F59111DC08E610059397D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C73F59121DC08E610059397D /* Build configuration list for PBXNativeTarget "AddTextToImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C73F59131DC08E610059397D /* Debug */,
+				C73F59141DC08E610059397D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C73F59151DC08E610059397D /* Build configuration list for PBXNativeTarget "AddTextToImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C73F59161DC08E610059397D /* Debug */,
+				C73F59171DC08E610059397D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C73F59181DC08E610059397D /* Build configuration list for PBXNativeTarget "AddTextToImageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C73F59191DC08E610059397D /* Debug */,
+				C73F591A1DC08E610059397D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C73F58DD1DC08E610059397D /* Project object */;
+}
